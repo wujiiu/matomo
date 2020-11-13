@@ -53,9 +53,6 @@
 [submodule "plugins/DeviceDetectorCache"]
 	path = plugins/DeviceDetectorCache
 	url = https://github.com/matomo-org/plugin-DeviceDetectorCache.git
-[submodule "plugins/Provider"]
-	path = plugins/Provider
-	url = https://github.com/matomo-org/plugin-Provider.git
 [submodule "plugins/CustomVariables"]
 	path = plugins/CustomVariables
 	url = https://github.com/matomo-org/plugin-CustomVariables.git
