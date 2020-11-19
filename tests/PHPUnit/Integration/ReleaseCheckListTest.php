@@ -923,6 +923,7 @@ class ReleaseCheckListTest extends \PHPUnit\Framework\TestCase
             if(strpos($file, 'vendor/php-di/php-di/website/') !== false
                 || strpos($file, 'vendor/phpmailer/phpmailer/language/') !== false
                 || strpos($file, 'node_modules/') !== false
+                || strpos($file, 'vendor/symfony/polyfill-iconv/') !== false
                 || strpos($file, 'plugins/VisitorGenerator/vendor/fzaninotto/faker/src/Faker/Provider/') !== false) {
                 continue;
             }
